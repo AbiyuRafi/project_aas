@@ -3,10 +3,10 @@
 session_start();
 require '../connect.php';
 
- if ($_SESSION['username'] == '') {
+if ($_SESSION['username'] == '') {
     echo "<script>window.location.href = '../login.php';</script>";
 }
- ?>
+?>
 
 <!DOCTYPE html>
 <html lang="en">

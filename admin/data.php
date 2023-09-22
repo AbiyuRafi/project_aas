@@ -12,7 +12,6 @@ include 'header.php';
     <title>Document</title>
 </head>
 <style>
-
     body {
         font-family: Arial, sans-serif;
         margin: 0;
@@ -108,7 +107,7 @@ include 'header.php';
                     Data
                 </div>
                 <div class="box-body-data">
-                <a href="tambahdata.php" class="text-color"><i><i class="fa fa-plus"></i></i>Tambah Data</a>
+                    <a href="tambahdata.php" class="text-color"><i><i class="fa fa-plus"></i></i>Tambah Data</a>
                     <?php
                     $no = 1;
                     $where = "WHERE 1 = 1 ";

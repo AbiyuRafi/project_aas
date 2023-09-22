@@ -923,4 +923,11 @@ footer {
     cursor: pointer;
 }
 
-
+.back {
+    background-color: #001E42;
+    float: right;
+    padding: 10px 10px;
+    width: 100px;
+    color: #FFF500;
+    border-radius: 7px;
+}

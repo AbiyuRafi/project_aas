@@ -28,13 +28,13 @@ if (isset($_POST['submit'])) {
     }
 
     $sql = mysqli_query($conn, "UPDATE datadata SET 
-  nama = '" . $nama . "',
-  iddonatur = '" . $iddonatur . "',
-  paket = '" . $paket . "',
-  kategori = '" . $kategori . "',
-  nominal = '" . $nominal . "',
-  gambar = '" . $gambar . "'
-  WHERE id = '" . $_GET['id'] . "'");
+nama = '" . $nama . "',
+iddonatur = '" . $iddonatur . "',
+paket = '" . $paket . "',
+kategori = '" . $kategori . "',
+nominal = '" . $nominal . "',
+gambar = '" . $gambar . "'
+WHERE id = '" . $_GET['id'] . "'");
 
     if ($sql) {
         echo "<script> alert('Update data berhasil');

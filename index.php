@@ -53,7 +53,7 @@ require "connect.php";
                 <a class="but" href="sodaqoh.php">Beri Bantuan Shodaqoh</a>
             </section><br><br><br>
         </div>
-        <!-- <?php
+        <?php
         $verifikasi = 1;
         $target_donasi = 40000000;
 
@@ -86,7 +86,7 @@ require "connect.php";
 
             return $donaturText;
         }
-        ?> -->
+        ?>
 
         <div class="content2">
             <div class="kotak">
@@ -393,4 +393,5 @@ require "connect.php";
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <script src="assets/js/main.js"></script>
 </body>
+
 </html>

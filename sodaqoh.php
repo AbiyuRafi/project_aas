@@ -88,7 +88,9 @@ if (isset($_POST['submit'])) {
                         <button type="submit" name="submit">Submit</button>
                     </div>
                     </form>
-                    <a href="index.php">Kembali</a>
+                    <div class="back">
+                        <a href="index.php">Kembali</a>
+                    </div>
                 </div>
             </div>
         </div>
